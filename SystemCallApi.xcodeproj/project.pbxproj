@@ -7,7 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D84B6AAC2BC9260400C68E7C /* KeyboardEventReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D84B6AAB2BC9260400C68E7C /* KeyboardEventReader.cpp */; };
 		D8F0DE342BC8420C009BBA4B /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8F0DE332BC8420C009BBA4B /* main.cpp */; };
+		D8F0DE3D2BC849B5009BBA4B /* MessageGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8F0DE3C2BC849B5009BBA4B /* MessageGenerator.cpp */; };
+		D8F0DE402BC84E48009BBA4B /* MessageReader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8F0DE3E2BC84E48009BBA4B /* MessageReader.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +26,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D84B6AAB2BC9260400C68E7C /* KeyboardEventReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = KeyboardEventReader.cpp; sourceTree = "<group>"; };
 		D8F0DE302BC8420C009BBA4B /* SystemCallApi */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SystemCallApi; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8F0DE332BC8420C009BBA4B /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		D8F0DE3C2BC849B5009BBA4B /* MessageGenerator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MessageGenerator.cpp; sourceTree = "<group>"; };
+		D8F0DE3E2BC84E48009BBA4B /* MessageReader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MessageReader.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 			isa = PBXGroup;
 			children = (
 				D8F0DE332BC8420C009BBA4B /* main.cpp */,
+				D8F0DE3C2BC849B5009BBA4B /* MessageGenerator.cpp */,
+				D8F0DE3E2BC84E48009BBA4B /* MessageReader.cpp */,
+				D84B6AAB2BC9260400C68E7C /* KeyboardEventReader.cpp */,
 			);
 			path = SystemCallApi;
 			sourceTree = "<group>";
@@ -120,6 +129,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8F0DE342BC8420C009BBA4B /* main.cpp in Sources */,
+				D8F0DE3D2BC849B5009BBA4B /* MessageGenerator.cpp in Sources */,
+				D84B6AAC2BC9260400C68E7C /* KeyboardEventReader.cpp in Sources */,
+				D8F0DE402BC84E48009BBA4B /* MessageReader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
