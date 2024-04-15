@@ -26,7 +26,6 @@ int main() {
     }
     free(message);
 
-
     return 0;
 }
 

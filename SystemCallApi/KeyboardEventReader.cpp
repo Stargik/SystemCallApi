@@ -114,7 +114,7 @@ string get_value_name(int value) {
 
 int main(int argc, char *argv[]){
     string eventName = argv[1];
-    string keyboard = "/dev/input/" + eventName; // Replace X with the event number of your keyboard
+    string keyboard = "/dev/input/" + eventName;
     ifstream keyboardInput(keyboard, ios::binary);
 
     struct input_event keyboardEvent;
@@ -125,7 +125,5 @@ int main(int argc, char *argv[]){
             cout << "Code: " << keyboardEvent.code << " (" << get_key_name(keyboardEvent.code) << ")" << endl;
         }
     }
-    keyboardInput.close();
-
     return 0;
 }
